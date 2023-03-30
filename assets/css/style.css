@@ -6,15 +6,23 @@ body {
     color: #3a3a3a;
 }
 
+header  {
+    background-color: #f0f0f0;
+}
+
 h1 {
     font-family: Oswald;
     text-transform: uppercase;
     color: black;
+
 }
+
+
 
 #name {
     float: left;
     font-size: 300%;
+    
 }
 
 nav {
