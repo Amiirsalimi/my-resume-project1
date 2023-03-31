@@ -195,12 +195,22 @@ nav a:hover {
     line-height: 1.5;
   }
 
-  .experience {
+  .resume {
+    background-color: grey;
+    position: absolute;
+    top: 500px;
     width: 100%;
-    text-align: center;
+    height: 100%;
+    color: black;
   }
 
-  .experience ul {
+  .section {
+    width: 100%;
+    text-align: center;
+   
+  }
+
+  .section ul {
     list-style: disc;
     text-align: left;
     max-width: 50%;
