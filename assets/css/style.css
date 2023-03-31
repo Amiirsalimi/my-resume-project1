@@ -107,6 +107,13 @@ nav a:hover {
     text-align: center;
   }
 
+  #bio {
+    max-width: 50%;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+  }
+
 @media (max-width: 600px) {
     nav {
       font-size: 14px;
@@ -129,7 +136,7 @@ nav a:hover {
       }
       #photo {
         width: 20%;
-        position: fixed;
+        position: absolute;
         left: 70%;
         border-radius: 50%;
         top: 30%;
