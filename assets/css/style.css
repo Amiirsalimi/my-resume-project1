@@ -131,12 +131,11 @@ nav a:hover {
   }
 
   .resume {
-    height: 2000;
     padding: 20px;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: #3a3a3a;
-    margin-top: 50%;
+    margin-top: 35%;
   }
 
   .uni {
@@ -174,11 +173,7 @@ nav a:hover {
     margin: 5px 0;
   }
   
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+  
   
  
   
@@ -194,17 +189,15 @@ nav a:hover {
     margin-bottom: 10px;
   }
   
-  p, li {
-    line-height: 1.5;
-  }
+  
 
 
   .section {
     width: 100%;
     text-align: center;
     margin-bottom: 40px;
-    
-   
+    position: relative;
+    top: 40px;
   }
 
   #edex {
@@ -213,17 +206,23 @@ nav a:hover {
 
   #edex > ul {
     text-align: left;
+    list-style: disc;
     max-width: 60%;
     position: relative;
     left: 20%;
+    line-height: 1.5;
   }
 
   
 
   #footer2 {
     position: absolute;
-    top: 2000px;
+    height: 80px;
     background-color: black;
+    width: 100%;
+    top: 2200px;
+    left: 0;
+    color: white;
   }
 
 @media (max-width: 600px) {
