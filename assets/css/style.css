@@ -297,50 +297,56 @@ nav a:hover {
     width: 100%;
   }
 
-@media (max-width: 600px) {
-    nav {
-      font-size: 14px;
-    }
-    
-    nav ul {
+ @media screen and (max-width: 1240px){
+  
+ }
+
+ @media screen and (max-width: 600px) {
+  nav {
+    font-size: 14px;
+  }
+  
+  nav ul {
+    text-align: center;
+  }
+
+  nav li {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  #banner {
+      max-height: 400px;
+  }
+  #intro {
+      position: absolute;
+      top: 33%;
+      left: 20px;
+      font-size: 10px;
       text-align: center;
     }
+    #photo {
+      width: 20%;
+      position: absolute;
+      left: 70%;
+      border-radius: 50%;
+      top: 30%;
+    }
+
+    #bio {
+      max-width: 80%;
+      left: 10%;
+      font-size: 14px;
+      top: 70%;
+    }
+
+
+
+    #footer1 {
+      top: 100%;
+    }
+}
+    
   
-    nav li {
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-
-    #banner {
-        max-height: 400px;
-    }
-    #intro {
-        position: absolute;
-        top: 33%;
-        left: 20px;
-        font-size: 10px;
-        text-align: center;
-      }
-      #photo {
-        width: 20%;
-        position: absolute;
-        left: 70%;
-        border-radius: 50%;
-        top: 30%;
-      }
-
-      #bio {
-        max-width: 80%;
-        left: 10%;
-        font-size: 14px;
-        top: 70%;
-      }
-
-
-
-      #footer1 {
-        top: 100%;
-      }
-  }
 
   
