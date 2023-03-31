@@ -141,9 +141,10 @@ nav a:hover {
   }
   
   .header {
-    display: flex;
-    align-items: center;
+    position: absolute;
     margin-bottom: 40px;
+    width:40%;
+    left: 30%;
   }
   
   #photo2 {
@@ -153,6 +154,7 @@ nav a:hover {
   }
   
   #name2 {
+    font-family: oswald, sans-serif;
     font-size: 36px;
     margin: 0;
   }
