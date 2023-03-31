@@ -123,10 +123,11 @@ nav a:hover {
   #footer1 {
     position: absolute;
     height: 80px;
-    background-color: #3a3a3a;
+    background-color: black;
     width: 100%;
     top: 1200px;
-    color: #3a3a3a;
+    left: 0;
+    color: white;
   }
 
   .resume {
@@ -179,8 +180,10 @@ nav a:hover {
   }
   
   h2 {
-    font-size: 24px;
+    font-family: oswald, sans-serif;
+    font-size: 30px;
     margin-bottom: 20px;
+    font-weight: bolder;
   }
   
   h3 {
@@ -190,6 +193,26 @@ nav a:hover {
   
   p, li {
     line-height: 1.5;
+  }
+
+  .experience {
+    width: 100%;
+    text-align: center;
+  }
+
+  .experience ul {
+    list-style: disc;
+    text-align: left;
+    max-width: 50%;
+    position: absolute;
+    left: 25%;
+    
+  }
+
+  #footer2 {
+    position: absolute;
+    top: 2000px;
+    background-color: black;
   }
 
 @media (max-width: 600px) {
