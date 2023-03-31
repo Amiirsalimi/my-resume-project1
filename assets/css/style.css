@@ -132,6 +132,15 @@ nav a:hover {
     
   }
 
+  .footer {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .footer p {
+    margin-top: 60px;
+  }
+
   #footer1 {
     position: absolute;
     height: 80px;
@@ -140,6 +149,8 @@ nav a:hover {
     top: 1200px;
     left: 0;
     color: white;
+    
+    
   }
 
   .resume {
