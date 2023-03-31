@@ -5,6 +5,7 @@ body {
     font-weight: 300;
     color: white;
     background-color: black;
+    overflow-x: hidden;
 }
 
 header {
@@ -14,7 +15,8 @@ header {
     font-size: 24px;
     font-family: Oswald, sans-serif;
     position: absolute;
-    top: 0;
+    top: 0; 
+    left: 0;
 }
 nav ul {
     text-align: center;
@@ -79,11 +81,6 @@ nav li {
 nav a {
     text-decoration: none;
     color: #3a3a3a;
-}
-
-nav,
-#name {
-    line-height: 75px;
 }
 
 nav a:hover {
