@@ -93,13 +93,24 @@ nav a:hover {
 }
 
 #photo {
-    width: 30%;
+    width: 25%;
     position: absolute;
     left: 60%;
     border-radius: 50%;
     top: 25%;
+    animation: zoom-photo;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
+@keyframes zoom-photo {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+  }
+}
 #intro {
     position: absolute;
     top: 50%;
