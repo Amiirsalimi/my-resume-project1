@@ -101,6 +101,7 @@ nav a:hover {
     animation: zoom-photo;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    
 }
 
 @keyframes zoom-photo {
@@ -167,13 +168,26 @@ nav a:hover {
     text-transform: uppercase;
     background-color: white;
   }
+
+  #banner2 ul {
+    list-style: none;
+  }
   
   #photo2 {
     height: 100%;
     position: absolute;
     left: 0;
+    opacity: 0;
+    animation: appear;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
   }
-  
+
+  @keyframes appear {
+    from { opacity: 0; } 
+    to { opacity: 1; }
+  }
+
   #name2 {
     font-family: oswald, sans-serif;
     font-size: 36px;
