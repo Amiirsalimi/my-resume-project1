@@ -37,7 +37,7 @@ nav a {
     color: #3a3a3a;
 }
 
-nav,
+
 #name {
     line-height: 75px;
 }
@@ -131,19 +131,17 @@ nav a:hover {
   }
 
   .resume {
-    
-    width: 100%;
+    height: 2000;
     padding: 20px;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: #3a3a3a;
-    position: absolute;
-    position: absolute;
-    top: 60%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: black;
+    margin-top: 50%;
+  }
+
+  .uni {
+    font-family: oswald, sans-serif;
+    font-weight: bolder;
   }
   
   #banner2 {
@@ -182,9 +180,7 @@ nav a:hover {
     padding: 0;
   }
   
-  .section {
-    margin-bottom: 40px;
-  }
+ 
   
   h2 {
     font-family: oswald, sans-serif;
@@ -206,17 +202,23 @@ nav a:hover {
   .section {
     width: 100%;
     text-align: center;
+    margin-bottom: 40px;
+    
    
   }
 
-  .section ul {
-    list-style: disc;
-    text-align: left;
-    max-width: 50%;
-    position: absolute;
-    left: 25%;
-    
+  #edex {
+    text-align: center;
   }
+
+  #edex > ul {
+    text-align: left;
+    max-width: 60%;
+    position: relative;
+    left: 20%;
+  }
+
+  
 
   #footer2 {
     position: absolute;
