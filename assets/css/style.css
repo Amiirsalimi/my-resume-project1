@@ -116,16 +116,16 @@ nav a:hover {
     left: 25%;
     font-size: 18px;
     height: 200px;
-    top: 100%;
+    top: 1000px;
     
   }
 
   #footer1 {
     position: absolute;
-    height: 120px;
+    height: 80px;
     background-color: whitesmoke;
     width: 100%;
-    top: 120%;
+    top: 1200px;
     color: #3a3a3a;
   }
 
@@ -145,6 +145,11 @@ nav a:hover {
     margin-bottom: 40px;
     width:40%;
     left: 30%;
+    top: 15%;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
   }
   
   #photo2 {
