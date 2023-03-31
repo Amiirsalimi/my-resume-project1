@@ -135,15 +135,22 @@ nav a:hover {
   .footer {
     text-align: center;
     font-size: 12px;
+    height: 100px;
   }
 
   .footer p {
-    margin-top: 60px;
+    
+    margin-top: 10px;
+  }
+
+  .icons {
+    width: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
   }
 
   #footer1 {
     position: absolute;
-    height: 80px;
     background-color: black;
     width: 100%;
     top: 1200px;
@@ -278,11 +285,9 @@ nav a:hover {
   
 
   #footer2 {
-    height: 80px;
     background-color: black;
     width: 100%;
-    
-    left: 0;
+   left: 0;
     color: white;
     position: fixed;
     bottom: 0;
