@@ -97,7 +97,7 @@ nav a:hover {
     position: absolute;
     left: 60%;
     border-radius: 50%;
-    top: 30%;
+    top: 25%;
 }
 
 #intro {
@@ -116,6 +116,8 @@ nav a:hover {
     left: 25%;
     font-size: 18px;
     height: 200px;
+    top: 100%;
+    
   }
 
   #footer1 {
@@ -123,17 +125,65 @@ nav a:hover {
     height: 120px;
     background-color: whitesmoke;
     width: 100%;
-    top: 1200px;
+    top: 120%;
     color: #3a3a3a;
   }
 
-  #photo2 {
-    width: 30%;
-    position: absolute;
-    left: 0;
+  .resume {
     
+    width: 100%;
+    padding: 20px;
+    font-family: lato, sans-serif;
+    font-size: 16px;
+    color: white;
+    position: absolute;
     top: 120px;
-}
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  #photo2 {
+    width:20%;
+    
+    margin-right: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p, li {
+    line-height: 1.5;
+  }
 
 @media (max-width: 600px) {
     nav {
@@ -171,6 +221,7 @@ nav a:hover {
         max-width: 80%;
         left: 10%;
         font-size: 14px;
+        top: 70%;
       }
 
 
