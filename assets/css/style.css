@@ -42,13 +42,7 @@ nav a {
     line-height: 75px;
 }
 
-nav a:hover {
-    border-bottom: 3px dotted #3a3a3a;
-}
 
-.active {
-    border-bottom: 3px solid #3a3a3a;
-}
 
 #banner {
     height: 1000px;
@@ -128,7 +122,7 @@ nav a:hover {
     left: 25%;
     font-size: 18px;
     height: 200px;
-    top: 1000px;
+    top: 900px;
     
   }
 
@@ -283,6 +277,14 @@ nav a:hover {
     line-height: 2;
   }
   
+  .dl {
+    text-decoration: none;
+    color: #3a3a3a;
+  }
+
+  .dl:hover {
+    border-bottom: 3px dotted #3a3a3a;
+  }
 
   #footer2 {
     background-color: black;
