@@ -59,7 +59,7 @@ hr {
     border-style: dashed;
 }
 
-h1 {
+#name {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     color: white;
@@ -152,7 +152,7 @@ nav a:hover {
     margin-right: 20px;
   }
   
-  h1 {
+  #name2 {
     font-size: 36px;
     margin: 0;
   }
