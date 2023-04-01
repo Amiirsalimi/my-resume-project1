@@ -46,12 +46,13 @@ nav a {
 
 
 #banner {
-  height: 1000px;
+  height: 950px;
 }
 
 hr {
   width: 50%;
   border-style: dashed;
+  
 }
 
 #name {
@@ -120,13 +121,14 @@ nav a:hover {
 }
 
 #bio {
-  max-width: 50%;
+  max-width: 70%;
   text-align: center;
   position: absolute;
-  left: 25%;
+  left: 15%;
   font-size: 18px;
   height: 200px;
   top: 1000px;
+  
 
 }
 
@@ -337,6 +339,10 @@ h3 {
     top: 30%;
   }
 
+  #banner {
+    max-height: 600px;
+  }
+
   #photo {
     left: 70%;
     top: 30%;
@@ -424,8 +430,9 @@ h3 {
   #bio {
     max-width: 80%;
     left: 10%;
-    font-size: 14px;
-    top: 70%;
+    font-size: 12px;
+    top: 500px;
+    
   }
 
 
