@@ -82,8 +82,14 @@ I loaded the website hundreds of times on my macbook pro 14 inch as well as 27 i
 I used this tool to validate my codes. Except for a couple of unused paragraphs left from laying out the initial structure of the website issues and missing the word content= before my keywords in the meta element, and an alt attribute for an icon in the footer, there was no other issues. 
 
 <img src=screenshots/sc-html1.jpg>
+
+
 <img src=screenshots/sc-html2.jpg>
+
+
 <img src=screenshots/sc-html3.jpg>
+
+
 <img src=screenshots/sc-errors.jpg>
 
 
@@ -132,5 +138,21 @@ https://icons8.com/icons/set/resume--white
 and of course, without the materials that I studied on Code Institute LMS and some points learned on Slack, I couldn't have done this project.
 
 I would like to thank my mentor, Ade who helped me through this project with his guidance.
+
+
+# Screenshots
+
+<img src=screenshots/sc1.jpg>
+
+<img src=screenshots/sc2.jpg>
+
+<img src=screenshots/sc3.jpg>
+
+<img src=screenshots/sc4.jpg>
+
+<img src=screenshots/sc5.jpg>
+
+<img src=screenshots/sc6.jpg>
+
 
 
