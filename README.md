@@ -131,6 +131,6 @@ https://icons8.com/icons/set/resume--white
 
 and of course, without the materials that I studied on Code Institute LMS and some points learned on Slack, I couldn't have done this project.
 
-My mentor, Ade helped me through this project with his guidance.
+I would like to thank my mentor, Ade who helped me through this project with his guidance.
 
 
