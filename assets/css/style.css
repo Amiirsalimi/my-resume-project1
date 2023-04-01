@@ -316,13 +316,14 @@ nav a:hover {
     width: 70%;
   }
   #banner2 {
-    height: 30%;
+    height: 20%;
   }
   #intro2 {
-    padding-right: 70px;
+    padding-right: 100px;
+    padding-left: 100px;
     font-size: 12px;
     padding-top: 50px;
-    float: right;
+   float: right;
   }
   #name2 {
     font-family: oswald, sans-serif;
@@ -330,6 +331,20 @@ nav a:hover {
     margin-bottom: 10px;
     font-weight: bolder;
   }
+  #edex > ul {
+    max-width: 90%;
+    left: 5%;
+  }
+  #one {
+    float: none;
+  }
+  #two {
+    float: none;
+  }
+  #three {
+    max-width: 40%;
+  }
+
  }
 
  @media screen and (max-width: 600px) {
