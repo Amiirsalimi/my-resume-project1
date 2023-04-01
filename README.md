@@ -15,7 +15,7 @@ My main purpose of creating this website was to get my project done and as the f
 ## User goals
 The user may enter the website through my social media links or if I leave it on my business cards as well as search engines in case they search for me on the web or for a developer. They would be able to make contact for job opportunities or freelance projects. They could also reach out to me on my social media through the links on the website or the conatct form.
 
-# Structure of the website
+# Features and Structure of the Website
 The website consists of 3 pages including : Home, resume, contact me
 ## Home
 At the top of the page, we have a navigation bar which lets the user navigate through the different pages of the website. 
@@ -44,3 +44,50 @@ On the right, there is the email address of the owner as well as links to social
 ## colors
 
 I used minimaslistic colors with a good contrast. On all pages except for the resume the background color is white. On the other hand on the resume page the background color is a shade of light grey #D3D3D3. I made that decision as the profile photo of my resume had a white background and I wanted my photo to blend in with the banner and have some contrast between the banner and my resume. Then, I used a charcoal color mostly for the color of my fonts #3a3a3a. On the footer and nav bar the background color is black and the fonts are white.
+
+## Fonts
+I used Roboto as the main font and Oswald for headings and sans-serif as backup.
+
+## Images
+I used a couple of photos of myself for the homepage and for the resume page.
+
+## Icons
+I used 5 icons in total, three in footer and two in Contact me. The icons were free png's downloaded from the web and are mentioned in the credits section.
+
+# Technologies used
+
+### HTML5
+As the structural language
+### CSS3
+As the styling language
+### GitHub
+As a platform to keep the project files as well as hosting my website through GitHub pages.
+### GitPod
+As a coding and development platform
+### Git
+As a version-control system
+### Google fonts
+As a resource provider for fonts.
+
+# Testing
+
+## Responsiveness
+I used Chrome developer tools all the way through the project this helped me with making my website responsive and figuring out styling issues so that I could fix them.
+
+## Compatibility
+I loaded the website hundreds of times on my macbook pro 14 inch as well as 27 inch 4K monitor to check for issues. On my iPhone 14 pro max. Additionally, I asked a friend to check on his smaller iphone 11 and macbook air. 
+
+## W3C html validator
+I used this tool to validate my codes. Except for a couple of unused paragraphs left from laying out the initial structure of the website issues and missing the word content= before my keywords in the meta element, and an alt attribute for an icon in the footer, there was no other issues. 
+
+<img src=assets/images/sc-html1.jpg>
+<img src=assets/images/sc-html2.jpg>
+<img src=assets/images/sc-html3.jpg>
+<img src=assets/images/sc-errors.jpg>
+
+
+## W3C Jigsaw CSS validator
+There was not even a single mistake or error.
+
+<img src=assets/images/sc-css.jpg>
+
