@@ -420,10 +420,13 @@ h3 {
   }
 
   #intro2 {
-    padding-right: 20px;
+    text-align: left;
     font-size: 10px;
-    max-width: 80%;
+    padding-left: 20%;
+    padding-right: 0;
     padding-top: 5px;
+    position: absolute;
+    top:100%;
   }
 
   #resume {
@@ -433,5 +436,9 @@ h3 {
 
   #banner2 {
     height: 20%;
+  }
+
+  #photo2 {
+    left: 30%;
   }
 }
