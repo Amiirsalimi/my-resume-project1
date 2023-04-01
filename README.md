@@ -69,15 +69,16 @@ As a version-control system
 ### Google fonts
 As a resource provider for fonts.
 
+
 # Testing
 
 ## Responsiveness
 I used Chrome developer tools all the way through the project this helped me with making my website responsive and figuring out styling issues so that I could fix them.
 
 ## Compatibility
-I loaded the website hundreds of times on my macbook pro 14 inch as well as 27 inch 4K monitor to check for issues. On my iPhone 14 pro max. Additionally, I asked a friend to check on his smaller iphone 11 and macbook air. 
+I loaded the website hundreds of times on my macbook pro 14 inch as well as 27 inch 4K monitor to check for issues. On my iPhone 14 pro max. Additionally, I checked on a smaller iphone 11 and macbook air. 
 
-## W3C html validator
+## Nu html validator
 I used this tool to validate my codes. Except for a couple of unused paragraphs left from laying out the initial structure of the website issues and missing the word content= before my keywords in the meta element, and an alt attribute for an icon in the footer, there was no other issues. 
 
 <img src=assets/images/sc-html1.jpg>
@@ -90,4 +91,46 @@ I used this tool to validate my codes. Except for a couple of unused paragraphs 
 There was not even a single mistake or error.
 
 <img src=assets/images/sc-css.jpg>
+
+# Issues found during the development
+
+At first the website did not load the way I wanted to on tablets and phone so I had to use @media for devices with widths under 1300pixels and 600pixels. I defined new properties and tested until I got my desired result.
+
+Sometimes, I had problems with positioning of div elements. So I had to look at the positioning lessons again and it really helped me out.
+
+I had to resize the my photo for smaller devices and slightly change the structure of my resume page to get the disired results.
+
+At one point on my resume page I had texts overlapping it took me a while to figure out why this has been happening. I couldn't find anything on google. It was the middle of the night so I could not use the tutoring service either. Therefore, I played around and realised that the reason this is happeing is that I have set the postition of a ul to absolute. After changing it to relative the problem got fixed.
+
+# Deployment
+
+I used GitHub pages to deploy my website. Through this link:
+https://amiirsalimi.github.io/my-resume-project1/index.html
+
+In addition, I used python3 -m http.server command to deploy the website while developing. I made the link public so I could use other devices as well.
+
+The website could be run locally through the depositopry as well:
+https://github.com/Amiirsalimi/my-resume-project1
+
+
+# Credits
+
+To complete this project I used Code Institute student template:
+https://github.com/Code-Institute-Org/gitpod-full-template
+
+I used Google fonts to import fonts.
+
+I used the below free icons:
+
+https://icons8.com/icons/set/resume--white
+https://icons8.com/icons/set/linkedin
+https://www.pngwing.com/en/free-png-zxbxz
+https://fontawesome.com/icons/instagram?f=brands&s=solid&sz=lg&pc=%23000000
+https://fontawesome.com/icons/linkedin?f=brands&s=solid
+https://icons8.com/icons/set/resume--white
+
+and of course, without the materials that I studied on Code Institute LMS and some points learned on Slack, I couldn't have done this project.
+
+My mentor, Ade helped me through this project with his guidance.
+
 
