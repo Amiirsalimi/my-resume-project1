@@ -7,7 +7,7 @@ This project has been done as my first portfolio project at Code Institue. Only 
 The link to the website can be found below:
 https://amiirsalimi.github.io/my-resume-project1/index.html
 
-<img src=assets/images/sc-resume-website.jpg>
+<img src=screenshots/sc-resume-website.jpg>
 
 # User Experience
 ## Owner goals
@@ -22,7 +22,7 @@ At the top of the page, we have a navigation bar which lets the user navigate th
 This page consists of a banner containing a photo of me as well as my name and current status on the left hand side of the photo. There is a dashed "hr" element and a short bio below the banner as well. The photo loads with a zoom animation.
 At the bottom, we have a footer in which we have icons that are links to my LinkedIn and Instagram accounts as well as an icon for my resume. The user can download a PDF file containing my resume by clicking on that icon.
 
-<img src=assets/images/sc-home.jpg>
+<img src=screenshots/sc-home.jpg>
 
 ## Resume
 At the top we have the same navigation bar as the homepage.
@@ -30,14 +30,14 @@ Then there is the banner containing another photo of me as well as my name, emai
 Then we have the CV presented through paragraphs and lists indicating my education and experience as well as my skills. At the bottom of the resume there is a link to a pdf file containing my resume.
 Then we have the footer. However, on this page footer is fixed so that while the user is scrolling through my resume can immdediately open the links to my social media accounts.
 
-<img src=assets/images/sc-resume.jpg>
+<img src=screenshots/sc-resume.jpg>
 
 ## Contact me
 At the top we have the same navigation bar.
 Then there is a form containing inputs for name, subject, email and message as well as the send button and a reset button. The user can contact the owner though this form.
 On the right, there is the email address of the owner as well as links to social media through icons and a link to the pdf file containing the resume. 
 
-<img src=assets/images/sc-contact.jpg>
+<img src=screenshots/sc-contact.jpg>
 
 # User Interface
 
@@ -81,16 +81,16 @@ I loaded the website hundreds of times on my macbook pro 14 inch as well as 27 i
 ## Nu html validator
 I used this tool to validate my codes. Except for a couple of unused paragraphs left from laying out the initial structure of the website issues and missing the word content= before my keywords in the meta element, and an alt attribute for an icon in the footer, there was no other issues. 
 
-<img src=assets/images/sc-html1.jpg>
-<img src=assets/images/sc-html2.jpg>
-<img src=assets/images/sc-html3.jpg>
-<img src=assets/images/sc-errors.jpg>
+<img src=screenshots/sc-html1.jpg>
+<img src=screenshots/sc-html2.jpg>
+<img src=screenshots/sc-html3.jpg>
+<img src=screenshots/sc-errors.jpg>
 
 
 ## W3C Jigsaw CSS validator
 There was not even a single mistake or error.
 
-<img src=assets/images/sc-css.jpg>
+<img src=screenshots/sc-css.jpg>
 
 # Issues found during the development
 
