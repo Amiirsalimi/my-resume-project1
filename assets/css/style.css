@@ -156,7 +156,7 @@ nav a:hover {
   }
 
   .resume {
-    padding: 100px;
+    padding: 200px;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: #3a3a3a;
@@ -303,7 +303,33 @@ nav a:hover {
   }
 
  @media screen and (max-width: 1290px){
-  
+  #intro {
+    font-size: 16px;
+    top: 30%;
+  }
+  #photo {
+    left: 70%;
+    top: 30%;
+  }
+  #bio {
+    top: 700px;
+    width: 70%;
+  }
+  #banner2 {
+    height: 30%;
+  }
+  #intro2 {
+    padding-right: 70px;
+    font-size: 12px;
+    padding-top: 50px;
+    float: right;
+  }
+  #name2 {
+    font-family: oswald, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
  }
 
  @media screen and (max-width: 600px) {
