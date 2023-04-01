@@ -345,12 +345,12 @@ h3 {
   position: absolute;
   background-color: black;
   width: 100%;
-  top: 1200px;
+  top: 800px;
   left: 0;
   color: white;
-
-
 }
+
+
 
 @media screen and (max-width: 1290px) {
   #intro {
